@@ -1,0 +1,9 @@
+
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(éÊÑú8øŽò·+
+squid:S2681"oOnly the first line of this 2-line block will be executed conditionally. The rest will execute unconditionally.(¾è³¼ùÿÿÿÿ8øŽò·+
+Csquid:S1214""Move constants to a class or enum.(€Á¦µúÿÿÿÿ8øŽò·+
+Osquid:UselessParenthesesCheck"!Remove those useless parentheses.(¹Å·ô8øŽò·+
+Œsquid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Œ‰ÿð8øŽò·+
+Ysquid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8øŽò·+
+Osquid:UselessParenthesesCheck"!Remove those useless parentheses.(¾©‡8øŽò·+
+Tsquid:UselessParenthesesCheck"!Remove those useless parentheses.(Øðº¢þÿÿÿÿ8øŽò·+

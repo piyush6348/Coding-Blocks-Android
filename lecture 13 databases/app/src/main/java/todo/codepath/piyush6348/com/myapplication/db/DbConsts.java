@@ -9,12 +9,13 @@ public interface DbConsts {
     String TYPE_INT= " INTEGER ";
     String TYPE_PK= " PRIMARY KEY ";
     String TYPE_TEXT=" TEXT ";
-    String CREATE_TABLE_INE=" CREATE TABLE IF NOT EXISTS todos  ";
+    String CREATE_TABLE_INE="CREATE TABLE IF NOT EXISTS ";
     String LCB=" ( ";
     String RCB=" ) ";
     String COMMA=" , ";
     String TYPE_AUTOINCR=" AUTOINCREMENT ";
-    String INSERT_INTO=" INSERT INTO todos VALUES ";
+    String INSERT_INTO="INSERT INTO todos VALUES ";
+    String TYPE_BOOL=" BOOLEAN ";
 
     String ALTER_TABLE=" ALTER TABLE ";
     String SEMICOL=" ; ";

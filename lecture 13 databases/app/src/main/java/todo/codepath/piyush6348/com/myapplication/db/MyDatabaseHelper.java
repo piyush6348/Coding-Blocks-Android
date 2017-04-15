@@ -3,6 +3,7 @@ package todo.codepath.piyush6348.com.myapplication.db;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.util.Log;
 
 /**
  * Created by dell on 4/15/2017.
@@ -18,6 +19,7 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
         sqLiteDatabase.execSQL(ToDoTable.CREATE_TABLE);
+        Log.e("onCreate: ","Databse" );
     }
 
     @Override

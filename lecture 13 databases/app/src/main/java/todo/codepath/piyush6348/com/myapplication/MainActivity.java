@@ -37,13 +37,13 @@ public class MainActivity extends AppCompatActivity {
 
         toDoAdapter=new ListAdapter(toDoS,this);
         listView.setAdapter(toDoAdapter);
+        refreshToDos();
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 ToDo obj=new ToDo(editText.getText().toString(),false);
                 ToDoTable.addTask(db,obj);
-                //toDoS=ToDoTable.fetchToDos(db);
                 refreshToDos();
             }
         });

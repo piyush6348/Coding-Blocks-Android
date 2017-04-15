@@ -1,0 +1,5 @@
+
+_squid:UselessImportCheck"8Remove this unused import 'android.widget.ArrayAdapter'.( €ŠÑÿÿÿÿÿ
+csquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(²Ú±Ž
+qsquid:S1450"WRemove the "listView" field and declare it as a local variable in the relevant methods.(¯¤½ñûÿÿÿÿ
+lsquid:S1450"RRemove the "btn" field and declare it as a local variable in the relevant methods.(ãÈ§üÿÿÿÿ
