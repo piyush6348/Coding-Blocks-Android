@@ -1,0 +1,9 @@
+
+jsquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(²Ú±Ž8ö‰´Ã¹+
+Zsquid:UselessImportCheck",Remove this unused import 'android.net.Uri'.(òêû‘ýÿÿÿÿ8ö‰´Ã¹+
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¬•çŠ8ö‰´Ã¹+
+usquid:S1192"TDefine a constant instead of duplicating this literal "onLocationChanged: " 4 times.(ÿÀàçøÿÿÿÿ8ö‰´Ã¹+
+^squid:UselessImportCheck"5Remove this unused import 'android.widget.VideoView'.(‚‹ˆ£8ö‰´Ã¹+
+¢squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(é¬“âùÿÿÿÿ8ö‰´Ã¹+
+}squid:S1188"\Reduce this anonymous class number of lines from 24 to at most 20, or make it a named class.(™±Îüÿÿÿÿ8ö‰´Ã¹+
+¢squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(±ìÑùÿÿÿÿ8ö‰´Ã¹+
