@@ -12,6 +12,8 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.android.gms.maps.model.Polyline;
+import com.google.android.gms.maps.model.PolylineOptions;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
@@ -58,9 +60,17 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         CameraUpdate obj=CameraUpdateFactory.newLatLngZoom(delhiLoc,10);
         mMap.moveCamera(obj);
+
+        LatLng myHome=new LatLng(100,100);
+        LatLng codingBlocks=new LatLng(200,200);
+        LatLng temp=new LatLng(300,300);
+        Polyline polyLine=googleMap.addPolyline(new PolylineOptions().add(myHome,temp,codingBlocks)).setClickable(false);
+
+
         // Animation with motion
         // This integer is speed of marker
         // Mandatory Callbacks if speed justified
+        /*
         mMap.animateCamera(obj, 10, new GoogleMap.CancelableCallback() {
             @Override
             public void onFinish() {
@@ -72,5 +82,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
             }
         });
+        */
     }
 }
